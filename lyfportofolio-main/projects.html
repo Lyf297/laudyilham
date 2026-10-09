@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Laudy Ilham Fahrizal</title>
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="/">Lyf</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About</a></li>
+        <li><a class="active" href="#">Project</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- TITLE -->
+  <main class="container">
+    <section class="intro">
+      <h1>My Projects</h1>
+        <p>Projects pilihan: desain, web, dll</p>
+    </section>
+
+    <section class="projects-grid" id="projects-grid"></section>
+
+    <!-- Modal -->
+    <div id="project-modal" class="modal" aria-hidden="true">
+      <div class="modal-content">
+        <button class="modal-close">✕</button>
+        <img id="modal-image" alt="project image" />
+        <div class="modal-body">
+          <h2 id="modal-title"></h2>
+          <p id="modal-desc"></p>
+          <p><strong>Tools:</strong> <span id="modal-tools"></span></p>
+          <a id="modal-link" class="btn" target="_blank" rel="noopener">Lihat Project</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Laudy Ilham Fahrizal</p>
+  </footer>
+
+  <script src="js/projects.js"></script>
+</body>
+</html>

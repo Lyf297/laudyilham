@@ -1,0 +1,44 @@
+@media (max-width: 991.98px) {
+  #hero .row {
+    row-gap: 32px;
+  }
+
+  #hero img {
+    width: min(72%, 320px);
+  }
+
+  #about,
+  #skill {
+    width: 92%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #hero .col-lg-5 {
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: clamp(1.8rem, 8vw, 2.4rem);
+  }
+
+  .social-icon {
+    font-size: 25px;
+  }
+
+  #about,
+  #skill {
+    width: calc(100% - 28px);
+    border-radius: 22px;
+  }
+
+  #about p {
+    font-size: 0.95rem;
+    padding-inline: 0;
+  }
+
+  #skill img {
+    width: clamp(40px, 13vw, 62px);
+    margin: clamp(5px, 1.5vw, 7px);
+  }
+}

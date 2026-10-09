@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/smooth-animations.css" />
+  </head>
+
+  <body>
+    <!-- 🔹 Navbar -->
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="/">Lyf</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About</a></li>
+          <li><a href="projects.html">Project</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 🔹 Konten utama -->
+    <main class="contact-container">
+      <div class="contact-card fade-in">
+        <div class="header">
+          <img src="img/imghero.png" alt="icon" class="hero" />
+          <h1>Hubungi Saya</h1>
+          <p>Kirim pesan langsung ke WhatsApp saya dengan cepat dan mudah </p>
+        </div>
+
+        <form id="contactForm">
+          <div class="input-group">
+            <label for="name">Nama</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Masukkan nama kamu"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <label for="message">Pesan</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Tulis pesan kamu..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            Kirim via WhatsApp
+          </button>
+        </form>
+      </div>
+    </main>
+    
+    
+        <!-- Link Image -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <!-- JS -->
+    <script src="js/contact.js"></script>
+    <script src="js/smooth-animations.js"></script>
+  </body>
+</html>
